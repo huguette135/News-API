@@ -8,6 +8,10 @@ class Config:
     # CAT_API_URL='https://newsapi.org/v2/everything?q={}&sortBy=relevancy&apiKey={}'
     NEWS_API_KEY=os.environ.get('NEWS_API_KEY')
     CAT_API_URL='https://newsapi.org/v2/top-headlines?country=us&category={}&apiKey={}'
+
+
+
+
 class ProdConfig(Config):
     '''
     Production  configuration child class
@@ -23,6 +27,7 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
+
     DEBUG = True
 
 config_options = {
