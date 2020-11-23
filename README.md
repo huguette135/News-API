@@ -71,4 +71,4 @@ As a user I would like to:
 * Python3.6
 * Flask
 ## License
-MIT
+MITs
