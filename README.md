@@ -12,7 +12,7 @@ These are the behaviours/features that the application implements for use by a u
 
 As a user I would like to:
 *  see various news sources on the homepage of the application.
-*  select a news source and see all news articles from the selected news source in the application.
+*   select a news source and see all news articles from the selected news source in the application.
 *  see the image, description and the time a news article was created.
 *  click on an article and read the full article on the source website.
 
@@ -30,7 +30,7 @@ As a user I would like to:
 ### Prerequisites
 * python3.6
 * pip
-* virtualenv
+* virtualen
 ## Running the Application
 * Creating the virtual environment
 
@@ -70,3 +70,5 @@ As a user I would like to:
 ## Technologies Used
 * Python3.6
 * Flask
+## License
+MITs
